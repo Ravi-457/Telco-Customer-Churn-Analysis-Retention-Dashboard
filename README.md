@@ -1,30 +1,43 @@
-# Telco Customer Churn Analysis
+# Telco Customer Churn Analysis & Retention Dashboard
 
-# Overview
+#  Project Overview
 
-An end-to-end data analytics project analyzing customer churn in a telecommunications company. The project uses **Python, Pandas, SQL, and Power BI** to clean data, identify churn patterns, and generate actionable business insights.
+This project analyzes customer churn for a telecommunications company to understand customer behavior and identify the key factors contributing to churn. The project follows an end-to-end data analytics workflow using **Python, Pandas, SQL, and Power BI**.
 
- Tools Used
+# Objectives
 
-* **Python & Pandas** – Data cleaning and analysis
+* Analyze overall customer churn and retention.
+* Identify customer segments with high churn rates.
+* Understand the impact of contract type, tenure, payment method, internet service, and charges on churn.
+* Create an interactive dashboard to present key insights and KPIs.
+
+# Tools & Technologies
+
+* **Python & Pandas** – Data cleaning, transformation, and analysis
 * **SQL** – Data querying and business analysis
-* **Power BI** – Interactive dashboard and visualization
-* **DAX** – KPI and calculated measures
+* **Power BI** – Interactive dashboard and data visualization
+* **DAX** – Calculated measures and KPIs
+
+# Project Workflow
+
+1. Cleaned and prepared the raw Telco Customer Churn dataset using Python and Pandas.
+2. Handled missing values, corrected data types, and prepared the dataset for analysis. Performed SQL queries to analyze churn patterns and customer segments.
+4. Created KPIs and calculated measures using DAX.
+5. Developed an interactive Power BI dashboard with charts, filters, and key metrics.
+6. Analyzed the results to identify high-risk customer segments and potential retention opportunities.
 
 # Key Analysis
 
-* Overall churn and retention rate
-* Churn by contract type and tenure
-* Churn by payment method and internet service
-* Monthly charges and customer segments
-* Identification of high-risk churn segments
-
-# Dashboard
-
-The Power BI dashboard provides interactive KPIs, charts, and filters to explore customer churn patterns and understand the factors influencing customer retention.
+* Customer Churn Rate
+* Churn by Contract Type
+* Churn by Tenure Group
+* Churn by Internet Service
+* Churn by Payment Method
+* Churn by Monthly Charges
+* Customer Retention Analysis
+* High-Risk Customer Segments
 
 # Key Outcome
 
-Identified important customer segments and factors associated with higher churn, providing insights that can help businesses develop targeted customer retention strategies.
-
+The analysis identifies customer groups that are more likely to churn and highlights the factors associated with customer attrition. These insights can help businesses develop targeted retention strategies, improve customer experience, and reduce customer churn.
 
